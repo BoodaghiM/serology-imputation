@@ -20,3 +20,6 @@ ray_results/
 
 # OS
 .DS_Store
+
+# Example outputs (local only)
+examples/outputs/
