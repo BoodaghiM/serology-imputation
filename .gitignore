@@ -6,19 +6,17 @@ dist/
 build/
 .venv/
 .venv*/
-.egg-info/
-
-# Ray / logs
-ray_results/
-*.log
 
 # Nextflow
 work/
 .nextflow*
 .trace*
-.timeline*
 .report*
+.timeline*
+
+# Ray / logs
+ray_results/
+*.log
 
 # OS
 .DS_Store
-
