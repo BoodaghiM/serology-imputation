@@ -1,0 +1,9 @@
+numpy
+pandas
+scikit-learn
+pyyaml
+pytest
+torch
+ray 
+tqdm
+rich

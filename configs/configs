@@ -1,0 +1,11 @@
+data_root: /Users/BoodaghidiM/Documents/Serology/Data
+output_root: /Users/BoodaghidiM/Documents/Serology/Outputs
+
+missing_type: MCAR
+folders: [1, 2, 3]          # will use Numerical_data_MCAR_1..3
+n_imputations: 2            # keep small for now (you can raise to 5 later)
+
+methods:
+  - iterative_rf
+  - autoencoder
+

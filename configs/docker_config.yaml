@@ -1,0 +1,11 @@
+input_dirs:
+  - "/data/Numerical_data_MAR_1/data"
+  - "/data/Numerical_data_MAR_2/data"
+  - "/data/Numerical_data_MAR_3/data"
+
+output_root: "/outputs"
+
+imputation_settings:
+  iterative_rf: 2
+  iterative_bayesridge: 2
+  autoencoder: 2

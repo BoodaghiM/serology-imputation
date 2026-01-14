@@ -1,0 +1,14 @@
+input_dirs:
+  - /Users/BoodaghidiM/Documents/Serology/Data/Numerical_data_MAR_1/data
+  - /Users/BoodaghidiM/Documents/Serology/Data/Numerical_data_MAR_2/data
+  - /Users/BoodaghidiM/Documents/Serology/Data/Numerical_data_MAR_3/data
+
+output_root: /Users/BoodaghidiM/Documents/Serology/Outputs
+
+imputation_settings:
+  iterative_rf: 2
+  iterative_bayesridge: 2
+  autoencoder: 2
+
+# optional
+# epochs: 200
